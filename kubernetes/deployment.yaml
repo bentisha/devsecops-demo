@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: docker.io/mohamedaminebenticha/my-app:sha-7425d173874c5b6a09cb9fe50c7d81916d244e74
+        image: docker.io/mohamedaminebenticha/my-app:sha-b959f7fa63ae3699110ff16671cc34abe8c5c544
         # Image will be automatically updated by CI/CD pipeline
         imagePullPolicy: Always
         ports:
